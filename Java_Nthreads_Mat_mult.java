@@ -3,25 +3,30 @@ import java.util.Random;
 
 public class MtMult implements Runnable {
 	public static int[][] a,b,c;
-	public int count=0;
+	public int count=0,k[];
 	public static int N,ct;
 	
 	public MtMult(int[] k) {
 		this.count=ct;
 		ct++;
 		int l=0;
+		
+		this.k = new int[k.length];
 		for(int i=0;i<N;i++) {
-			
-			for(int j=0;j<N;j++) {
-				
-				c[this.count][i]+=k[j]*b[j][l];
-			}
-			l++;
+			this.k[i]=k[i];
 		}
 	}
 	
 	public void run() {
-		
+		int l=0;
+			for(int i=0;i<N;i++) {
+			
+			for(int j=0;j<N;j++) {
+				
+				c[this.count][i]+=this.k[j]*b[j][l];
+			}
+			l++;
+		}
 	}
 	
 	public static void load() {
@@ -68,13 +73,15 @@ public class MtMult implements Runnable {
 		c = new int[N][N];
 		load();
 		
-		printMat();
+	//	printMat();
 		
 		for(int i=0;i<N;i++) {
 			new Thread(new MtMult(a[i])).start();
+			
 		}
-		Thread.sleep(10);
-		
-		printMatc();
+		//new Thread(new MtMult(a)).start();
+		//Thread.
+		//printMat();
+		//printMatc();
 	}
 }
