@@ -73,14 +73,10 @@ public class MtMult implements Runnable {
 		c = new int[N][N];
 		load();
 		
-	//	printMat();
-		
 		for(int i=0;i<N;i++) {
 			new Thread(new MtMult(a[i])).start();
 			
 		}
-		//new Thread(new MtMult(a)).start();
-		//Thread.
 		//printMat();
 		//printMatc();
 	}
