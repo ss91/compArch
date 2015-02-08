@@ -1,0 +1,180 @@
+Iteration 1
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8189.705765 task-clock                #    0.996 CPUs utilized          
+               345 context-switches          #    0.000 M/sec                  
+                52 CPU-migrations            #    0.000 M/sec                  
+             7,923 page-faults               #    0.001 M/sec                  
+    25,046,613,587 cycles                    #    3.058 GHz                     [83.37%]
+    19,626,824,372 stalled-cycles-frontend   #   78.36% frontend cycles idle    [83.30%]
+     5,625,217,098 stalled-cycles-backend    #   22.46% backend  cycles idle    [66.65%]
+    11,498,998,059 instructions              #    0.46  insns per cycle        
+                                             #    1.71  stalled cycles per insn [83.32%]
+     1,584,699,622 branches                  #  193.499 M/sec                   [83.30%]
+         5,035,668 branch-misses             #    0.32% of all branches         [83.41%]
+
+       8.224508473 seconds time elapsed
+
+Iteration 2
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8201.366801 task-clock                #    1.000 CPUs utilized          
+               356 context-switches          #    0.000 M/sec                  
+                59 CPU-migrations            #    0.000 M/sec                  
+             7,926 page-faults               #    0.001 M/sec                  
+    25,086,666,257 cycles                    #    3.059 GHz                     [83.37%]
+    19,653,613,981 stalled-cycles-frontend   #   78.34% frontend cycles idle    [83.34%]
+     6,044,554,119 stalled-cycles-backend    #   24.09% backend  cycles idle    [66.54%]
+    11,489,727,013 instructions              #    0.46  insns per cycle        
+                                             #    1.71  stalled cycles per insn [83.27%]
+     1,583,699,875 branches                  #  193.102 M/sec                   [83.36%]
+         4,928,257 branch-misses             #    0.31% of all branches         [83.41%]
+
+       8.201853253 seconds time elapsed
+
+Iteration 3
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8226.593365 task-clock                #    1.000 CPUs utilized          
+               340 context-switches          #    0.000 M/sec                  
+                54 CPU-migrations            #    0.000 M/sec                  
+             7,917 page-faults               #    0.001 M/sec                  
+    25,167,840,017 cycles                    #    3.059 GHz                     [83.36%]
+    19,742,382,690 stalled-cycles-frontend   #   78.44% frontend cycles idle    [83.21%]
+     5,920,768,984 stalled-cycles-backend    #   23.53% backend  cycles idle    [66.67%]
+    11,483,707,296 instructions              #    0.46  insns per cycle        
+                                             #    1.72  stalled cycles per insn [83.41%]
+     1,588,778,433 branches                  #  193.127 M/sec                   [83.42%]
+         5,038,893 branch-misses             #    0.32% of all branches         [83.37%]
+
+       8.226387546 seconds time elapsed
+
+Iteration 4
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8260.429550 task-clock                #    0.999 CPUs utilized          
+               344 context-switches          #    0.000 M/sec                  
+                46 CPU-migrations            #    0.000 M/sec                  
+             7,927 page-faults               #    0.001 M/sec                  
+    25,262,443,048 cycles                    #    3.058 GHz                     [83.37%]
+    19,840,033,810 stalled-cycles-frontend   #   78.54% frontend cycles idle    [83.39%]
+     6,387,603,184 stalled-cycles-backend    #   25.28% backend  cycles idle    [66.64%]
+    11,499,888,815 instructions              #    0.46  insns per cycle        
+                                             #    1.73  stalled cycles per insn [83.25%]
+     1,583,378,720 branches                  #  191.682 M/sec                   [83.26%]
+         4,695,896 branch-misses             #    0.30% of all branches         [83.36%]
+
+       8.265790251 seconds time elapsed
+
+Iteration 5
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8232.352704 task-clock                #    1.000 CPUs utilized          
+               355 context-switches          #    0.000 M/sec                  
+                46 CPU-migrations            #    0.000 M/sec                  
+             7,920 page-faults               #    0.001 M/sec                  
+    25,181,505,621 cycles                    #    3.059 GHz                     [83.38%]
+    19,745,669,605 stalled-cycles-frontend   #   78.41% frontend cycles idle    [83.37%]
+     5,924,168,083 stalled-cycles-backend    #   23.53% backend  cycles idle    [66.59%]
+    11,492,938,290 instructions              #    0.46  insns per cycle        
+                                             #    1.72  stalled cycles per insn [83.24%]
+     1,584,816,005 branches                  #  192.511 M/sec                   [83.28%]
+         4,682,747 branch-misses             #    0.30% of all branches         [83.40%]
+
+       8.233134328 seconds time elapsed
+
+Iteration 6
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8234.639802 task-clock                #    1.000 CPUs utilized          
+               334 context-switches          #    0.000 M/sec                  
+                52 CPU-migrations            #    0.000 M/sec                  
+             7,915 page-faults               #    0.001 M/sec                  
+    25,205,280,543 cycles                    #    3.061 GHz                     [83.31%]
+    19,763,735,705 stalled-cycles-frontend   #   78.41% frontend cycles idle    [83.26%]
+     5,702,847,993 stalled-cycles-backend    #   22.63% backend  cycles idle    [66.67%]
+    11,500,159,783 instructions              #    0.46  insns per cycle        
+                                             #    1.72  stalled cycles per insn [83.38%]
+     1,590,468,625 branches                  #  193.144 M/sec                   [83.43%]
+         4,924,546 branch-misses             #    0.31% of all branches         [83.36%]
+
+       8.235079008 seconds time elapsed
+
+Iteration 7
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8194.075299 task-clock                #    1.000 CPUs utilized          
+               342 context-switches          #    0.000 M/sec                  
+                52 CPU-migrations            #    0.000 M/sec                  
+             7,930 page-faults               #    0.001 M/sec                  
+    25,069,438,902 cycles                    #    3.059 GHz                     [83.31%]
+    19,660,679,181 stalled-cycles-frontend   #   78.42% frontend cycles idle    [83.31%]
+     5,702,572,352 stalled-cycles-backend    #   22.75% backend  cycles idle    [66.64%]
+    11,484,198,067 instructions              #    0.46  insns per cycle        
+                                             #    1.71  stalled cycles per insn [83.35%]
+     1,587,837,333 branches                  #  193.779 M/sec                   [83.38%]
+         5,038,709 branch-misses             #    0.32% of all branches         [83.39%]
+
+       8.193395991 seconds time elapsed
+
+Iteration 8
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8198.617619 task-clock                #    1.000 CPUs utilized          
+               346 context-switches          #    0.000 M/sec                  
+                57 CPU-migrations            #    0.000 M/sec                  
+             7,921 page-faults               #    0.001 M/sec                  
+    25,080,914,449 cycles                    #    3.059 GHz                     [83.34%]
+    19,639,873,745 stalled-cycles-frontend   #   78.31% frontend cycles idle    [83.40%]
+     5,508,518,414 stalled-cycles-backend    #   21.96% backend  cycles idle    [66.56%]
+    11,499,212,780 instructions              #    0.46  insns per cycle        
+                                             #    1.71  stalled cycles per insn [83.33%]
+     1,588,578,794 branches                  #  193.762 M/sec                   [83.36%]
+         5,123,825 branch-misses             #    0.32% of all branches         [83.37%]
+
+       8.199200929 seconds time elapsed
+
+Iteration 9
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8309.905416 task-clock                #    0.994 CPUs utilized          
+               342 context-switches          #    0.000 M/sec                  
+                55 CPU-migrations            #    0.000 M/sec                  
+             7,922 page-faults               #    0.001 M/sec                  
+    25,422,985,224 cycles                    #    3.059 GHz                     [83.40%]
+    19,982,855,266 stalled-cycles-frontend   #   78.60% frontend cycles idle    [83.28%]
+     5,648,979,964 stalled-cycles-backend    #   22.22% backend  cycles idle    [66.57%]
+    11,501,679,926 instructions              #    0.45  insns per cycle        
+                                             #    1.74  stalled cycles per insn [83.39%]
+     1,587,673,401 branches                  #  191.058 M/sec                   [83.39%]
+         4,705,502 branch-misses             #    0.30% of all branches         [83.38%]
+
+       8.363947305 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for 'java MatrixMultiplier 1000':
+
+       8272.681053 task-clock                #    1.000 CPUs utilized          
+               364 context-switches          #    0.000 M/sec                  
+                53 CPU-migrations            #    0.000 M/sec                  
+             7,924 page-faults               #    0.001 M/sec                  
+    25,307,211,479 cycles                    #    3.059 GHz                     [83.31%]
+    19,865,790,949 stalled-cycles-frontend   #   78.50% frontend cycles idle    [83.33%]
+     6,055,880,576 stalled-cycles-backend    #   23.93% backend  cycles idle    [66.64%]
+    11,504,664,919 instructions              #    0.45  insns per cycle        
+                                             #    1.73  stalled cycles per insn [83.37%]
+     1,586,728,612 branches                  #  191.803 M/sec                   [83.35%]
+         4,551,682 branch-misses             #    0.29% of all branches         [83.37%]
+
+       8.273447669 seconds time elapsed
+

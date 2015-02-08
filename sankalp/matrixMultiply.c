@@ -9,6 +9,8 @@ static int **matrixB;
 static int **matrixC;
 static int N;
 
+static int randomMaxValue = 100;
+
 void setUpMatrices() {
 
 	int i = 0;
@@ -38,8 +40,8 @@ void fillMatrices() {
 
 		for (j=0; j<N; j++) {
 
-			matrixA[i][j] = rand() % (N*10);
-			matrixB[i][j] = rand() % (N*10);
+			matrixA[i][j] = rand() % (randomMaxValue);
+			matrixB[i][j] = rand() % (randomMaxValue);
 		}
 
 

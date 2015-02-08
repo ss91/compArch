@@ -5,7 +5,7 @@ if [ "$#" -ne 5 ]; then
 	exit
 fi
 
-rm *10
+
 
 STR_C_GCC="gcc_output_$1"
 STR_JAVA="java_output_$1"

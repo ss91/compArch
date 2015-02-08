@@ -5,6 +5,8 @@ public class MatrixMultiplier {
 	static int[][] matrixA;
 	static int[][] matrixB;
 	static int[][] matrixC;
+
+	static final int randomMaxValue = 100;
 	
 	public MatrixMultiplier (int N) {
 		
@@ -27,8 +29,8 @@ public class MatrixMultiplier {
 			
 			for (j=0; j<matrixA.length; j++) {
 				
-				matrixA[i][j] = rn.nextInt(matrixA.length*10);
-				matrixB[i][j] = rn.nextInt(matrixA.length*10);
+				matrixA[i][j] = rn.nextInt(randomMaxValue);
+				matrixB[i][j] = rn.nextInt(randomMaxValue);
 				
 			}
 			

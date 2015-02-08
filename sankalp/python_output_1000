@@ -1,0 +1,180 @@
+Iteration 1
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     267280.814532 task-clock                #    0.997 CPUs utilized          
+               618 context-switches          #    0.000 M/sec                  
+                12 CPU-migrations            #    0.000 M/sec                  
+            14,191 page-faults               #    0.000 M/sec                  
+   818,286,395,614 cycles                    #    3.062 GHz                     [83.33%]
+   180,604,814,729 stalled-cycles-frontend   #   22.07% frontend cycles idle    [83.33%]
+   105,054,409,109 stalled-cycles-backend    #   12.84% backend  cycles idle    [66.67%]
+ 1,675,451,103,916 instructions              #    2.05  insns per cycle        
+                                             #    0.11  stalled cycles per insn [83.33%]
+   368,032,473,888 branches                  # 1376.951 M/sec                   [83.33%]
+     6,799,436,812 branch-misses             #    1.85% of all branches         [83.33%]
+
+     267.974093315 seconds time elapsed
+
+Iteration 2
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     272457.321966 task-clock                #    0.997 CPUs utilized          
+               394 context-switches          #    0.000 M/sec                  
+                 8 CPU-migrations            #    0.000 M/sec                  
+            14,192 page-faults               #    0.000 M/sec                  
+   834,049,245,426 cycles                    #    3.061 GHz                     [83.33%]
+   196,463,689,527 stalled-cycles-frontend   #   23.56% frontend cycles idle    [83.33%]
+   116,885,123,956 stalled-cycles-backend    #   14.01% backend  cycles idle    [66.67%]
+ 1,675,713,892,162 instructions              #    2.01  insns per cycle        
+                                             #    0.12  stalled cycles per insn [83.33%]
+   368,082,576,307 branches                  # 1350.973 M/sec                   [83.33%]
+     6,809,192,349 branch-misses             #    1.85% of all branches         [83.33%]
+
+     273.141445282 seconds time elapsed
+
+Iteration 3
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     269214.913459 task-clock                #    0.997 CPUs utilized          
+               377 context-switches          #    0.000 M/sec                  
+                16 CPU-migrations            #    0.000 M/sec                  
+            14,192 page-faults               #    0.000 M/sec                  
+   824,184,535,691 cycles                    #    3.061 GHz                     [83.33%]
+   185,016,771,239 stalled-cycles-frontend   #   22.45% frontend cycles idle    [83.33%]
+   112,245,834,876 stalled-cycles-backend    #   13.62% backend  cycles idle    [66.67%]
+ 1,675,618,159,052 instructions              #    2.03  insns per cycle        
+                                             #    0.11  stalled cycles per insn [83.33%]
+   368,067,256,574 branches                  # 1367.187 M/sec                   [83.33%]
+     6,792,464,919 branch-misses             #    1.85% of all branches         [83.33%]
+
+     269.890848007 seconds time elapsed
+
+Iteration 4
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     270243.943203 task-clock                #    0.997 CPUs utilized          
+               389 context-switches          #    0.000 M/sec                  
+                38 CPU-migrations            #    0.000 M/sec                  
+            14,192 page-faults               #    0.000 M/sec                  
+   827,327,544,769 cycles                    #    3.061 GHz                     [83.33%]
+   189,627,024,293 stalled-cycles-frontend   #   22.92% frontend cycles idle    [83.33%]
+   112,487,969,169 stalled-cycles-backend    #   13.60% backend  cycles idle    [66.67%]
+ 1,675,633,568,320 instructions              #    2.03  insns per cycle        
+                                             #    0.11  stalled cycles per insn [83.33%]
+   368,073,749,361 branches                  # 1362.006 M/sec                   [83.33%]
+     6,792,047,631 branch-misses             #    1.85% of all branches         [83.33%]
+
+     270.923142149 seconds time elapsed
+
+Iteration 5
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     269233.488892 task-clock                #    0.997 CPUs utilized          
+               391 context-switches          #    0.000 M/sec                  
+                 7 CPU-migrations            #    0.000 M/sec                  
+            14,192 page-faults               #    0.000 M/sec                  
+   824,229,800,983 cycles                    #    3.061 GHz                     [83.33%]
+   184,441,623,933 stalled-cycles-frontend   #   22.38% frontend cycles idle    [83.33%]
+   112,599,539,674 stalled-cycles-backend    #   13.66% backend  cycles idle    [66.67%]
+ 1,675,645,540,946 instructions              #    2.03  insns per cycle        
+                                             #    0.11  stalled cycles per insn [83.33%]
+   368,073,051,507 branches                  # 1367.115 M/sec                   [83.33%]
+     6,801,591,839 branch-misses             #    1.85% of all branches         [83.33%]
+
+     269.909263784 seconds time elapsed
+
+Iteration 6
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     270924.199539 task-clock                #    0.997 CPUs utilized          
+               392 context-switches          #    0.000 M/sec                  
+                 5 CPU-migrations            #    0.000 M/sec                  
+            14,191 page-faults               #    0.000 M/sec                  
+   829,404,152,812 cycles                    #    3.061 GHz                     [83.33%]
+   191,576,161,764 stalled-cycles-frontend   #   23.10% frontend cycles idle    [83.33%]
+   109,757,553,847 stalled-cycles-backend    #   13.23% backend  cycles idle    [66.67%]
+ 1,675,651,122,253 instructions              #    2.02  insns per cycle        
+                                             #    0.11  stalled cycles per insn [83.33%]
+   368,061,317,346 branches                  # 1358.540 M/sec                   [83.33%]
+     6,800,629,641 branch-misses             #    1.85% of all branches         [83.33%]
+
+     271.604913915 seconds time elapsed
+
+Iteration 7
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     267138.407719 task-clock                #    0.997 CPUs utilized          
+               571 context-switches          #    0.000 M/sec                  
+                16 CPU-migrations            #    0.000 M/sec                  
+            14,192 page-faults               #    0.000 M/sec                  
+   817,746,930,697 cycles                    #    3.061 GHz                     [83.33%]
+   179,545,380,139 stalled-cycles-frontend   #   21.96% frontend cycles idle    [83.33%]
+   102,411,013,679 stalled-cycles-backend    #   12.52% backend  cycles idle    [66.67%]
+ 1,675,464,943,177 instructions              #    2.05  insns per cycle        
+                                             #    0.11  stalled cycles per insn [83.33%]
+   368,036,073,449 branches                  # 1377.698 M/sec                   [83.33%]
+     6,799,103,875 branch-misses             #    1.85% of all branches         [83.33%]
+
+     267.813587562 seconds time elapsed
+
+Iteration 8
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     266004.784787 task-clock                #    0.997 CPUs utilized          
+             2,997 context-switches          #    0.000 M/sec                  
+                 9 CPU-migrations            #    0.000 M/sec                  
+            14,192 page-faults               #    0.000 M/sec                  
+   814,343,717,270 cycles                    #    3.061 GHz                     [83.33%]
+   175,078,806,513 stalled-cycles-frontend   #   21.50% frontend cycles idle    [83.33%]
+   102,777,765,524 stalled-cycles-backend    #   12.62% backend  cycles idle    [66.67%]
+ 1,675,461,872,198 instructions              #    2.06  insns per cycle        
+                                             #    0.10  stalled cycles per insn [83.33%]
+   368,038,416,864 branches                  # 1383.578 M/sec                   [83.33%]
+     6,793,612,297 branch-misses             #    1.85% of all branches         [83.33%]
+
+     266.694441514 seconds time elapsed
+
+Iteration 9
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     266997.466078 task-clock                #    0.997 CPUs utilized          
+               584 context-switches          #    0.000 M/sec                  
+                16 CPU-migrations            #    0.000 M/sec                  
+            14,191 page-faults               #    0.000 M/sec                  
+   817,276,456,257 cycles                    #    3.061 GHz                     [83.33%]
+   179,119,347,530 stalled-cycles-frontend   #   21.92% frontend cycles idle    [83.33%]
+   105,092,501,446 stalled-cycles-backend    #   12.86% backend  cycles idle    [66.67%]
+ 1,675,426,259,219 instructions              #    2.05  insns per cycle        
+                                             #    0.11  stalled cycles per insn [83.33%]
+   368,045,895,215 branches                  # 1378.462 M/sec                   [83.33%]
+     6,800,401,406 branch-misses             #    1.85% of all branches         [83.33%]
+
+     267.671841948 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for 'python MatrixMultiplier.py 1000':
+
+     268668.245846 task-clock                #    0.997 CPUs utilized          
+               526 context-switches          #    0.000 M/sec                  
+                15 CPU-migrations            #    0.000 M/sec                  
+            14,191 page-faults               #    0.000 M/sec                  
+   822,518,004,071 cycles                    #    3.061 GHz                     [83.33%]
+   183,378,969,649 stalled-cycles-frontend   #   22.29% frontend cycles idle    [83.33%]
+   111,191,115,504 stalled-cycles-backend    #   13.52% backend  cycles idle    [66.67%]
+ 1,675,475,742,837 instructions              #    2.04  insns per cycle        
+                                             #    0.11  stalled cycles per insn [83.33%]
+   368,056,693,946 branches                  # 1369.930 M/sec                   [83.33%]
+     6,783,515,299 branch-misses             #    1.84% of all branches         [83.33%]
+
+     269.345677227 seconds time elapsed
+

@@ -6,7 +6,7 @@ class MatrixMultiplier:
 	matrixC = [[]]
 
 	matrixDim = 0
-
+	randomMaxValue = 100
 	def __init__(self, N):
 		self.matrixDim = int(N)
 
@@ -22,8 +22,8 @@ class MatrixMultiplier:
 		for i in range (0, self.matrixDim):
 			for j in range (0, self.matrixDim):
 
-				self.matrixA[i][j] = random.randint(0, self.matrixDim*10)
-				self.matrixB[i][j] = random.randint(0, self.matrixDim*10)
+				self.matrixA[i][j] = random.randint(0, self.randomMaxValue)
+				self.matrixB[i][j] = random.randint(0, self.randomMaxValue)
 
 	
 	def printInputMatrices(self):
