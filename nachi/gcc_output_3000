@@ -1,0 +1,180 @@
+Iteration 1
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     860205.810931 task-clock                #   15.849 CPUs utilized          
+           234,510 context-switches          #    0.000 M/sec                  
+            70,354 CPU-migrations            #    0.000 M/sec                  
+            38,611 page-faults               #    0.000 M/sec                  
+ 2,516,822,235,355 cycles                    #    2.926 GHz                     [83.42%]
+ 2,114,479,764,565 stalled-cycles-frontend   #   84.01% frontend cycles idle    [83.37%]
+   790,618,924,042 stalled-cycles-backend    #   31.41% backend  cycles idle    [66.59%]
+ 1,433,763,926,057 instructions              #    0.57  insns per cycle        
+                                             #    1.47  stalled cycles per insn [83.35%]
+    27,720,667,138 branches                  #   32.226 M/sec                   [83.29%]
+        28,519,942 branch-misses             #    0.10% of all branches         [83.42%]
+
+      54.276120649 seconds time elapsed
+
+Iteration 2
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     882515.006472 task-clock                #   15.430 CPUs utilized          
+           227,863 context-switches          #    0.000 M/sec                  
+           126,644 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 2,580,962,745,542 cycles                    #    2.925 GHz                     [83.45%]
+ 2,177,625,159,135 stalled-cycles-frontend   #   84.37% frontend cycles idle    [83.33%]
+   859,801,396,498 stalled-cycles-backend    #   33.31% backend  cycles idle    [66.66%]
+ 1,433,457,377,962 instructions              #    0.56  insns per cycle        
+                                             #    1.52  stalled cycles per insn [83.39%]
+    27,762,808,794 branches                  #   31.459 M/sec                   [83.39%]
+        28,465,567 branch-misses             #    0.10% of all branches         [83.42%]
+
+      57.193802752 seconds time elapsed
+
+Iteration 3
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     854264.765174 task-clock                #   15.871 CPUs utilized          
+           230,580 context-switches          #    0.000 M/sec                  
+            76,576 CPU-migrations            #    0.000 M/sec                  
+            38,611 page-faults               #    0.000 M/sec                  
+ 2,499,416,883,824 cycles                    #    2.926 GHz                     [83.37%]
+ 2,096,498,739,190 stalled-cycles-frontend   #   83.88% frontend cycles idle    [83.40%]
+   782,605,462,912 stalled-cycles-backend    #   31.31% backend  cycles idle    [66.69%]
+ 1,433,878,355,477 instructions              #    0.57  insns per cycle        
+                                             #    1.46  stalled cycles per insn [83.37%]
+    27,730,091,575 branches                  #   32.461 M/sec                   [83.30%]
+        26,719,814 branch-misses             #    0.10% of all branches         [83.34%]
+
+      53.825933410 seconds time elapsed
+
+Iteration 4
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     858505.869421 task-clock                #   15.870 CPUs utilized          
+           231,124 context-switches          #    0.000 M/sec                  
+            80,180 CPU-migrations            #    0.000 M/sec                  
+            38,660 page-faults               #    0.000 M/sec                  
+ 2,511,605,766,623 cycles                    #    2.926 GHz                     [83.35%]
+ 2,109,221,164,800 stalled-cycles-frontend   #   83.98% frontend cycles idle    [83.41%]
+   786,062,347,244 stalled-cycles-backend    #   31.30% backend  cycles idle    [66.70%]
+ 1,433,565,203,990 instructions              #    0.57  insns per cycle        
+                                             #    1.47  stalled cycles per insn [83.35%]
+    27,733,411,713 branches                  #   32.304 M/sec                   [83.32%]
+        26,318,172 branch-misses             #    0.09% of all branches         [83.36%]
+
+      54.097194945 seconds time elapsed
+
+Iteration 5
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     860441.294798 task-clock                #   15.863 CPUs utilized          
+           230,922 context-switches          #    0.000 M/sec                  
+           108,948 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 2,517,063,934,337 cycles                    #    2.925 GHz                     [83.26%]
+ 2,113,756,857,333 stalled-cycles-frontend   #   83.98% frontend cycles idle    [83.36%]
+   801,321,762,168 stalled-cycles-backend    #   31.84% backend  cycles idle    [66.77%]
+ 1,433,674,478,670 instructions              #    0.57  insns per cycle        
+                                             #    1.47  stalled cycles per insn [83.40%]
+    27,762,467,992 branches                  #   32.265 M/sec                   [83.43%]
+        26,886,576 branch-misses             #    0.10% of all branches         [83.31%]
+
+      54.243632261 seconds time elapsed
+
+Iteration 6
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     856399.807280 task-clock                #   15.866 CPUs utilized          
+           230,812 context-switches          #    0.000 M/sec                  
+            78,590 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 2,505,658,591,134 cycles                    #    2.926 GHz                     [83.37%]
+ 2,102,572,425,641 stalled-cycles-frontend   #   83.91% frontend cycles idle    [83.35%]
+   789,308,853,316 stalled-cycles-backend    #   31.50% backend  cycles idle    [66.66%]
+ 1,433,495,093,882 instructions              #    0.57  insns per cycle        
+                                             #    1.47  stalled cycles per insn [83.38%]
+    27,717,954,377 branches                  #   32.366 M/sec                   [83.35%]
+        26,736,752 branch-misses             #    0.10% of all branches         [83.39%]
+
+      53.976446689 seconds time elapsed
+
+Iteration 7
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     868141.868761 task-clock                #   15.866 CPUs utilized          
+           233,574 context-switches          #    0.000 M/sec                  
+           128,584 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 2,540,079,445,525 cycles                    #    2.926 GHz                     [83.33%]
+ 2,136,275,085,706 stalled-cycles-frontend   #   84.10% frontend cycles idle    [83.32%]
+   820,148,490,377 stalled-cycles-backend    #   32.29% backend  cycles idle    [66.70%]
+ 1,433,896,448,048 instructions              #    0.56  insns per cycle        
+                                             #    1.49  stalled cycles per insn [83.39%]
+    27,773,516,427 branches                  #   31.992 M/sec                   [83.37%]
+        26,879,804 branch-misses             #    0.10% of all branches         [83.35%]
+
+      54.717140316 seconds time elapsed
+
+Iteration 8
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     855862.319539 task-clock                #   15.862 CPUs utilized          
+           228,776 context-switches          #    0.000 M/sec                  
+            61,235 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 2,503,713,416,489 cycles                    #    2.925 GHz                     [83.39%]
+ 2,100,939,156,723 stalled-cycles-frontend   #   83.91% frontend cycles idle    [83.38%]
+   786,888,683,406 stalled-cycles-backend    #   31.43% backend  cycles idle    [66.77%]
+ 1,433,385,300,767 instructions              #    0.57  insns per cycle        
+                                             #    1.47  stalled cycles per insn [83.39%]
+    27,702,826,813 branches                  #   32.368 M/sec                   [83.31%]
+        26,354,787 branch-misses             #    0.10% of all branches         [83.32%]
+
+      53.957777043 seconds time elapsed
+
+Iteration 9
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     852778.721646 task-clock                #   15.870 CPUs utilized          
+           230,420 context-switches          #    0.000 M/sec                  
+            78,270 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 2,495,232,336,534 cycles                    #    2.926 GHz                     [83.40%]
+ 2,092,343,344,322 stalled-cycles-frontend   #   83.85% frontend cycles idle    [83.40%]
+   777,115,946,059 stalled-cycles-backend    #   31.14% backend  cycles idle    [66.60%]
+ 1,433,546,934,907 instructions              #    0.57  insns per cycle        
+                                             #    1.46  stalled cycles per insn [83.32%]
+    27,725,994,034 branches                  #   32.513 M/sec                   [83.32%]
+        26,644,251 branch-misses             #    0.10% of all branches         [83.35%]
+
+      53.735780919 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply 3000':
+
+     858392.389037 task-clock                #   15.864 CPUs utilized          
+           231,489 context-switches          #    0.000 M/sec                  
+            97,281 CPU-migrations            #    0.000 M/sec                  
+            38,611 page-faults               #    0.000 M/sec                  
+ 2,511,541,413,765 cycles                    #    2.926 GHz                     [83.35%]
+ 2,108,405,510,692 stalled-cycles-frontend   #   83.95% frontend cycles idle    [83.38%]
+   794,482,610,456 stalled-cycles-backend    #   31.63% backend  cycles idle    [66.64%]
+ 1,433,654,552,499 instructions              #    0.57  insns per cycle        
+                                             #    1.47  stalled cycles per insn [83.35%]
+    27,737,245,944 branches                  #   32.313 M/sec                   [83.35%]
+        26,708,999 branch-misses             #    0.10% of all branches         [83.37%]
+
+      54.107802245 seconds time elapsed
+
