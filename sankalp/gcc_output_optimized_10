@@ -1,0 +1,180 @@
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.248266 task-clock                #    0.177 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.512 M/sec                  
+     <not counted> cycles                  
+           456,214 stalled-cycles-frontend   #    0.00% frontend cycles idle   
+           322,343 stalled-cycles-backend    #    0.00% backend  cycles idle   
+           525,274 instructions              #    0.00  insns per cycle        
+                                             #    0.87  stalled cycles per insn
+           102,761 branches                  #  413.915 M/sec                  
+             6,305 branch-misses             #    6.14% of all branches        
+
+       0.001399414 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.250526 task-clock                #    0.158 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               126 page-faults               #    0.503 M/sec                  
+           761,374 cycles                    #    3.039 GHz                    
+           460,669 stalled-cycles-frontend   #   60.50% frontend cycles idle   
+           278,379 stalled-cycles-backend    #   36.56% backend  cycles idle   
+           531,203 instructions              #    0.70  insns per cycle        
+                                             #    0.87  stalled cycles per insn
+           104,155 branches                  #  415.745 M/sec                  
+     <not counted> branch-misses           
+
+       0.001584906 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.256776 task-clock                #    0.261 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.495 M/sec                  
+           769,126 cycles                    #    2.995 GHz                    
+           464,343 stalled-cycles-frontend   #   60.37% frontend cycles idle   
+           305,155 stalled-cycles-backend    #   39.68% backend  cycles idle   
+           537,950 instructions              #    0.70  insns per cycle        
+                                             #    0.86  stalled cycles per insn
+           105,335 branches                  #  410.221 M/sec                  
+     <not counted> branch-misses           
+
+       0.000984387 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.252672 task-clock                #    0.303 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.503 M/sec                  
+           758,151 cycles                    #    3.001 GHz                    
+           456,805 stalled-cycles-frontend   #   60.25% frontend cycles idle   
+           312,114 stalled-cycles-backend    #   41.17% backend  cycles idle   
+           535,170 instructions              #    0.71  insns per cycle        
+                                             #    0.85  stalled cycles per insn
+           104,829 branches                  #  414.882 M/sec                  
+     <not counted> branch-misses           
+
+       0.000834122 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.256107 task-clock                #    0.319 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.496 M/sec                  
+           777,635 cycles                    #    3.036 GHz                    
+           471,077 stalled-cycles-frontend   #   60.58% frontend cycles idle   
+           311,009 stalled-cycles-backend    #   39.99% backend  cycles idle   
+           537,745 instructions              #    0.69  insns per cycle        
+                                             #    0.88  stalled cycles per insn
+           105,304 branches                  #  411.172 M/sec                  
+     <not counted> branch-misses           
+
+       0.000803563 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.253460 task-clock                #    0.266 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.501 M/sec                  
+           770,539 cycles                    #    3.040 GHz                    
+           464,693 stalled-cycles-frontend   #   60.31% frontend cycles idle   
+           320,075 stalled-cycles-backend    #   41.54% backend  cycles idle   
+           535,462 instructions              #    0.69  insns per cycle        
+                                             #    0.87  stalled cycles per insn
+           104,877 branches                  #  413.781 M/sec                  
+     <not counted> branch-misses           
+
+       0.000953846 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.257419 task-clock                #    0.307 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.493 M/sec                  
+           771,110 cycles                    #    2.996 GHz                    
+           466,926 stalled-cycles-frontend   #   60.55% frontend cycles idle   
+           338,319 stalled-cycles-backend    #   43.87% backend  cycles idle   
+           536,400 instructions              #    0.70  insns per cycle        
+                                             #    0.87  stalled cycles per insn
+           105,084 branches                  #  408.222 M/sec                  
+     <not counted> branch-misses           
+
+       0.000837879 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.251920 task-clock                #    0.292 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.504 M/sec                  
+           765,830 cycles                    #    3.040 GHz                    
+           460,303 stalled-cycles-frontend   #   60.11% frontend cycles idle   
+           311,031 stalled-cycles-backend    #   40.61% backend  cycles idle   
+           536,633 instructions              #    0.70  insns per cycle        
+                                             #    0.86  stalled cycles per insn
+           105,101 branches                  #  417.200 M/sec                  
+     <not counted> branch-misses           
+
+       0.000862143 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.251167 task-clock                #    0.329 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.506 M/sec                  
+           765,608 cycles                    #    3.048 GHz                    
+           463,671 stalled-cycles-frontend   #   60.56% frontend cycles idle   
+           321,814 stalled-cycles-backend    #   42.03% backend  cycles idle   
+           534,394 instructions              #    0.70  insns per cycle        
+                                             #    0.87  stalled cycles per insn
+           104,724 branches                  #  416.950 M/sec                  
+     <not counted> branch-misses           
+
+       0.000763382 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_gcc_optimized 10':
+
+          0.257385 task-clock                #    0.271 CPUs utilized          
+                 0 context-switches          #    0.000 M/sec                  
+                 0 CPU-migrations            #    0.000 M/sec                  
+               127 page-faults               #    0.493 M/sec                  
+           781,086 cycles                    #    3.035 GHz                    
+           474,101 stalled-cycles-frontend   #   60.70% frontend cycles idle   
+           323,675 stalled-cycles-backend    #   41.44% backend  cycles idle   
+           537,279 instructions              #    0.69  insns per cycle        
+                                             #    0.88  stalled cycles per insn
+           105,124 branches                  #  408.431 M/sec                  
+     <not counted> branch-misses           
+
+       0.000949143 seconds time elapsed
+

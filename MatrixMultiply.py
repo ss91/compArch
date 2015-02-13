@@ -5,7 +5,9 @@ from threading import Thread
 
 matrixDim = int(sys.argv[1])
 randomMaxValue = 100
-t1 = [0 for i in range(matrixDim)]
+#t1 = [0 for i in range(matrixDim)]
+
+t1 = []
 
 ## INITIALISING MATRICES A B C
 
@@ -22,15 +24,13 @@ for i in range (0,matrixDim):
 ## DEFINING THREAD
 
 def MyThread1(arg):
-   
+
+    print "Thread " + str(arg)  
 
     for j in range(0,matrixDim):
         for k in range (0,matrixDim):
             matrixC[arg][j] += matrixA[arg][k] * matrixB[k][j]
-
-
-
-    pass
+#	    print "Thread " + str(arg) + " " + str(j)
 
 def printMat():
     for i in range (0, matrixDim):
@@ -40,8 +40,13 @@ def printMat():
 
 
 for i in range (0,matrixDim):
-    t1[i] = threading.Thread(target=MyThread1, args=(i, ))
-    t1[i].start()
-    
+    t = threading.Thread(target=MyThread1, args=(i, ))
+    t1.append(t)
+    t.start()
+
 for i in range (0,matrixDim):
     t1[i].join()
+
+#for temp in t:
+#	temp.join()
+    
