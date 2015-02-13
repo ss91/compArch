@@ -1,0 +1,180 @@
+Iteration 1
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     683602.290403 task-clock                #   15.450 CPUs utilized          
+           188,550 context-switches          #    0.000 M/sec                  
+           124,825 CPU-migrations            #    0.000 M/sec                  
+            38,610 page-faults               #    0.000 M/sec                  
+ 1,999,462,444,454 cycles                    #    2.925 GHz                     [83.42%]
+ 1,792,201,743,624 stalled-cycles-frontend   #   89.63% frontend cycles idle    [83.39%]
+   732,108,261,478 stalled-cycles-backend    #   36.62% backend  cycles idle    [66.64%]
+   704,703,744,949 instructions              #    0.35  insns per cycle        
+                                             #    2.54  stalled cycles per insn [83.36%]
+    54,751,821,576 branches                  #   80.093 M/sec                   [83.31%]
+        28,992,325 branch-misses             #    0.05% of all branches         [83.36%]
+
+      44.246815535 seconds time elapsed
+
+Iteration 2
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     656346.268253 task-clock                #   15.808 CPUs utilized          
+           180,684 context-switches          #    0.000 M/sec                  
+            60,920 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 1,920,078,756,344 cycles                    #    2.925 GHz                     [83.35%]
+ 1,713,914,650,003 stalled-cycles-frontend   #   89.26% frontend cycles idle    [83.40%]
+   673,492,997,060 stalled-cycles-backend    #   35.08% backend  cycles idle    [66.69%]
+   704,563,852,613 instructions              #    0.37  insns per cycle        
+                                             #    2.43  stalled cycles per insn [83.40%]
+    54,680,965,978 branches                  #   83.311 M/sec                   [83.33%]
+        23,359,720 branch-misses             #    0.04% of all branches         [83.36%]
+
+      41.519713143 seconds time elapsed
+
+Iteration 3
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     650472.372196 task-clock                #   15.842 CPUs utilized          
+           179,054 context-switches          #    0.000 M/sec                  
+            51,924 CPU-migrations            #    0.000 M/sec                  
+            38,667 page-faults               #    0.000 M/sec                  
+ 1,902,954,424,195 cycles                    #    2.925 GHz                     [83.39%]
+ 1,697,271,920,745 stalled-cycles-frontend   #   89.19% frontend cycles idle    [83.34%]
+   657,960,307,195 stalled-cycles-backend    #   34.58% backend  cycles idle    [66.66%]
+   704,440,174,470 instructions              #    0.37  insns per cycle        
+                                             #    2.41  stalled cycles per insn [83.40%]
+    54,675,514,763 branches                  #   84.055 M/sec                   [83.33%]
+        22,892,161 branch-misses             #    0.04% of all branches         [83.40%]
+
+      41.059065184 seconds time elapsed
+
+Iteration 4
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     651631.525229 task-clock                #   15.824 CPUs utilized          
+           182,372 context-switches          #    0.000 M/sec                  
+            52,036 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 1,906,309,513,113 cycles                    #    2.925 GHz                     [83.26%]
+ 1,700,558,939,253 stalled-cycles-frontend   #   89.21% frontend cycles idle    [83.34%]
+   661,130,828,448 stalled-cycles-backend    #   34.68% backend  cycles idle    [66.77%]
+   704,518,430,975 instructions              #    0.37  insns per cycle        
+                                             #    2.41  stalled cycles per insn [83.44%]
+    54,700,285,137 branches                  #   83.944 M/sec                   [83.42%]
+        23,179,824 branch-misses             #    0.04% of all branches         [83.35%]
+
+      41.179632917 seconds time elapsed
+
+Iteration 5
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     645090.508110 task-clock                #   15.842 CPUs utilized          
+           177,144 context-switches          #    0.000 M/sec                  
+            37,511 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 1,887,230,872,785 cycles                    #    2.926 GHz                     [83.46%]
+ 1,681,916,680,900 stalled-cycles-frontend   #   89.12% frontend cycles idle    [83.33%]
+   643,726,007,507 stalled-cycles-backend    #   34.11% backend  cycles idle    [66.56%]
+   704,240,725,796 instructions              #    0.37  insns per cycle        
+                                             #    2.39  stalled cycles per insn [83.38%]
+    54,650,770,111 branches                  #   84.718 M/sec                   [83.37%]
+        22,788,180 branch-misses             #    0.04% of all branches         [83.40%]
+
+      40.720662136 seconds time elapsed
+
+Iteration 6
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     654735.637357 task-clock                #   15.838 CPUs utilized          
+           178,992 context-switches          #    0.000 M/sec                  
+            57,843 CPU-migrations            #    0.000 M/sec                  
+            38,676 page-faults               #    0.000 M/sec                  
+ 1,915,287,511,362 cycles                    #    2.925 GHz                     [83.36%]
+ 1,709,570,929,231 stalled-cycles-frontend   #   89.26% frontend cycles idle    [83.45%]
+   666,106,751,593 stalled-cycles-backend    #   34.78% backend  cycles idle    [66.80%]
+   704,465,971,543 instructions              #    0.37  insns per cycle        
+                                             #    2.43  stalled cycles per insn [83.46%]
+    54,674,026,380 branches                  #   83.505 M/sec                   [83.27%]
+        22,966,114 branch-misses             #    0.04% of all branches         [83.27%]
+
+      41.339847085 seconds time elapsed
+
+Iteration 7
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     651946.916267 task-clock                #   15.840 CPUs utilized          
+           178,727 context-switches          #    0.000 M/sec                  
+            58,382 CPU-migrations            #    0.000 M/sec                  
+            38,612 page-faults               #    0.000 M/sec                  
+ 1,907,272,880,774 cycles                    #    2.926 GHz                     [83.35%]
+ 1,701,658,946,649 stalled-cycles-frontend   #   89.22% frontend cycles idle    [83.38%]
+   662,579,277,388 stalled-cycles-backend    #   34.74% backend  cycles idle    [66.68%]
+   704,411,723,866 instructions              #    0.37  insns per cycle        
+                                             #    2.42  stalled cycles per insn [83.39%]
+    54,682,387,688 branches                  #   83.876 M/sec                   [83.33%]
+        23,006,900 branch-misses             #    0.04% of all branches         [83.36%]
+
+      41.157774093 seconds time elapsed
+
+Iteration 8
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     658702.116455 task-clock                #   15.831 CPUs utilized          
+           180,021 context-switches          #    0.000 M/sec                  
+            65,424 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 1,927,171,386,102 cycles                    #    2.926 GHz                     [83.37%]
+ 1,721,331,876,817 stalled-cycles-frontend   #   89.32% frontend cycles idle    [83.37%]
+   680,225,081,166 stalled-cycles-backend    #   35.30% backend  cycles idle    [66.65%]
+   704,546,852,605 instructions              #    0.37  insns per cycle        
+                                             #    2.44  stalled cycles per insn [83.38%]
+    54,713,327,269 branches                  #   83.062 M/sec                   [83.33%]
+        23,170,747 branch-misses             #    0.04% of all branches         [83.36%]
+
+      41.607310118 seconds time elapsed
+
+Iteration 9
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     655546.843395 task-clock                #   15.839 CPUs utilized          
+           179,504 context-switches          #    0.000 M/sec                  
+            48,274 CPU-migrations            #    0.000 M/sec                  
+            38,633 page-faults               #    0.000 M/sec                  
+ 1,917,585,435,185 cycles                    #    2.925 GHz                     [83.48%]
+ 1,711,878,739,585 stalled-cycles-frontend   #   89.27% frontend cycles idle    [83.44%]
+   670,847,756,771 stalled-cycles-backend    #   34.98% backend  cycles idle    [66.53%]
+   704,441,322,711 instructions              #    0.37  insns per cycle        
+                                             #    2.43  stalled cycles per insn [83.27%]
+    54,673,205,128 branches                  #   83.401 M/sec                   [83.31%]
+        22,751,239 branch-misses             #    0.04% of all branches         [83.41%]
+
+      41.388974142 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply_clang 3000':
+
+     654964.010122 task-clock                #   15.837 CPUs utilized          
+           177,750 context-switches          #    0.000 M/sec                  
+            55,614 CPU-migrations            #    0.000 M/sec                  
+            38,609 page-faults               #    0.000 M/sec                  
+ 1,915,850,649,855 cycles                    #    2.925 GHz                     [83.41%]
+ 1,710,329,479,237 stalled-cycles-frontend   #   89.27% frontend cycles idle    [83.45%]
+   669,851,934,369 stalled-cycles-backend    #   34.96% backend  cycles idle    [66.78%]
+   704,428,294,267 instructions              #    0.37  insns per cycle        
+                                             #    2.43  stalled cycles per insn [83.35%]
+    54,682,454,453 branches                  #   83.489 M/sec                   [83.26%]
+        22,859,901 branch-misses             #    0.04% of all branches         [83.27%]
+
+      41.355687125 seconds time elapsed
+

@@ -1,0 +1,180 @@
+Iteration 1
+
+ Performance counter stats for './matrixMultiply 100':
+
+         16.526964 task-clock                #    3.146 CPUs utilized          
+               104 context-switches          #    0.006 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               399 page-faults               #    0.024 M/sec                  
+        36,453,917 cycles                    #    2.206 GHz                     [69.79%]
+        26,162,628 stalled-cycles-frontend   #   71.77% frontend cycles idle   
+         9,686,357 stalled-cycles-backend    #   26.57% backend  cycles idle   
+        62,112,652 instructions              #    1.70  insns per cycle        
+                                             #    0.42  stalled cycles per insn
+         2,865,529 branches                  #  173.385 M/sec                  
+            36,638 branch-misses             #    1.28% of all branches         [51.54%]
+
+       0.005252944 seconds time elapsed
+
+Iteration 2
+
+ Performance counter stats for './matrixMultiply 100':
+
+         16.487582 task-clock                #    2.873 CPUs utilized          
+               119 context-switches          #    0.007 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               399 page-faults               #    0.024 M/sec                  
+        28,029,197 cycles                    #    1.700 GHz                     [17.05%]
+        25,904,797 stalled-cycles-frontend   #   92.42% frontend cycles idle   
+         9,941,702 stalled-cycles-backend    #   35.47% backend  cycles idle   
+        62,135,429 instructions              #    2.22  insns per cycle        
+                                             #    0.42  stalled cycles per insn
+         2,870,676 branches                  #  174.111 M/sec                  
+            40,771 branch-misses             #    1.42% of all branches         [88.98%]
+
+       0.005739271 seconds time elapsed
+
+Iteration 3
+
+ Performance counter stats for './matrixMultiply 100':
+
+         15.581824 task-clock                #    3.007 CPUs utilized          
+               121 context-switches          #    0.008 M/sec                  
+               101 CPU-migrations            #    0.006 M/sec                  
+               399 page-faults               #    0.026 M/sec                  
+        39,399,884 cycles                    #    2.529 GHz                     [81.89%]
+        25,020,285 stalled-cycles-frontend   #   63.50% frontend cycles idle   
+         9,474,898 stalled-cycles-backend    #   24.05% backend  cycles idle   
+        62,002,884 instructions              #    1.57  insns per cycle        
+                                             #    0.40  stalled cycles per insn
+         2,835,542 branches                  #  181.978 M/sec                  
+            33,644 branch-misses             #    1.19% of all branches         [33.57%]
+
+       0.005182704 seconds time elapsed
+
+Iteration 4
+
+ Performance counter stats for './matrixMultiply 100':
+
+         15.996230 task-clock                #    3.122 CPUs utilized          
+               111 context-switches          #    0.007 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               399 page-faults               #    0.025 M/sec                  
+        33,421,613 cycles                    #    2.089 GHz                     [ 5.64%]
+        25,280,416 stalled-cycles-frontend   #   75.64% frontend cycles idle   
+         9,395,885 stalled-cycles-backend    #   28.11% backend  cycles idle   
+        62,037,017 instructions              #    1.86  insns per cycle        
+                                             #    0.41  stalled cycles per insn
+         2,846,710 branches                  #  177.961 M/sec                  
+            38,797 branch-misses             #    1.36% of all branches         [98.10%]
+
+       0.005124444 seconds time elapsed
+
+Iteration 5
+
+ Performance counter stats for './matrixMultiply 100':
+
+         16.851912 task-clock                #    3.227 CPUs utilized          
+                96 context-switches          #    0.006 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               398 page-faults               #    0.024 M/sec                  
+        33,311,860 cycles                    #    1.977 GHz                     [35.15%]
+        27,000,368 stalled-cycles-frontend   #   81.05% frontend cycles idle   
+         9,238,737 stalled-cycles-backend    #   27.73% backend  cycles idle   
+        62,062,439 instructions              #    1.86  insns per cycle        
+                                             #    0.44  stalled cycles per insn
+         2,856,031 branches                  #  169.478 M/sec                  
+            34,865 branch-misses             #    1.22% of all branches         [82.37%]
+
+       0.005221378 seconds time elapsed
+
+Iteration 6
+
+ Performance counter stats for './matrixMultiply 100':
+
+         16.155562 task-clock                #    3.110 CPUs utilized          
+               118 context-switches          #    0.007 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               399 page-faults               #    0.025 M/sec                  
+        31,345,899 cycles                    #    1.940 GHz                     [12.53%]
+        24,728,314 stalled-cycles-frontend   #   78.89% frontend cycles idle    [95.24%]
+         9,425,647 stalled-cycles-backend    #   30.07% backend  cycles idle   
+        62,014,321 instructions              #    1.98  insns per cycle        
+                                             #    0.40  stalled cycles per insn
+         2,836,967 branches                  #  175.603 M/sec                  
+            48,434 branch-misses             #    1.71% of all branches        
+
+       0.005195433 seconds time elapsed
+
+Iteration 7
+
+ Performance counter stats for './matrixMultiply 100':
+
+         15.929430 task-clock                #    3.082 CPUs utilized          
+                96 context-switches          #    0.006 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               399 page-faults               #    0.025 M/sec                  
+        31,810,590 cycles                    #    1.997 GHz                     [47.91%]
+        25,710,626 stalled-cycles-frontend   #   80.82% frontend cycles idle   
+         9,458,253 stalled-cycles-backend    #   29.73% backend  cycles idle   
+        61,868,247 instructions              #    1.94  insns per cycle        
+                                             #    0.42  stalled cycles per insn
+         2,804,292 branches                  #  176.045 M/sec                  
+            34,165 branch-misses             #    1.22% of all branches         [73.62%]
+
+       0.005168431 seconds time elapsed
+
+Iteration 8
+
+ Performance counter stats for './matrixMultiply 100':
+
+         16.602924 task-clock                #    3.231 CPUs utilized          
+               109 context-switches          #    0.007 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               398 page-faults               #    0.024 M/sec                  
+        44,344,904 cycles                    #    2.671 GHz                     [99.55%]
+        25,951,364 stalled-cycles-frontend   #   58.52% frontend cycles idle   
+         8,793,077 stalled-cycles-backend    #   19.83% backend  cycles idle   
+        62,102,026 instructions              #    1.40  insns per cycle        
+                                             #    0.42  stalled cycles per insn
+         2,865,263 branches                  #  172.576 M/sec                  
+            62,286 branch-misses             #    2.17% of all branches         [ 1.20%]
+
+       0.005138379 seconds time elapsed
+
+Iteration 9
+
+ Performance counter stats for './matrixMultiply 100':
+
+         16.110245 task-clock                #    3.122 CPUs utilized          
+               105 context-switches          #    0.007 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               401 page-faults               #    0.025 M/sec                  
+        27,924,498 cycles                    #    1.733 GHz                     [25.42%]
+        24,404,014 stalled-cycles-frontend   #   87.39% frontend cycles idle    [88.13%]
+         9,187,331 stalled-cycles-backend    #   32.90% backend  cycles idle   
+        61,917,705 instructions              #    2.22  insns per cycle        
+                                             #    0.39  stalled cycles per insn
+         2,814,112 branches                  #  174.678 M/sec                  
+            46,487 branch-misses             #    1.65% of all branches        
+
+       0.005159764 seconds time elapsed
+
+Iteration 10
+
+ Performance counter stats for './matrixMultiply 100':
+
+         16.366322 task-clock                #    3.210 CPUs utilized          
+               112 context-switches          #    0.007 M/sec                  
+               100 CPU-migrations            #    0.006 M/sec                  
+               399 page-faults               #    0.024 M/sec                  
+        42,830,254 cycles                    #    2.617 GHz                     [97.59%]
+        25,580,641 stalled-cycles-frontend   #   59.73% frontend cycles idle   
+         8,832,468 stalled-cycles-backend    #   20.62% backend  cycles idle   
+        62,013,287 instructions              #    1.45  insns per cycle        
+                                             #    0.41  stalled cycles per insn
+         2,837,106 branches                  #  173.350 M/sec                  
+            39,891 branch-misses             #    1.41% of all branches         [ 7.17%]
+
+       0.005098681 seconds time elapsed
+
